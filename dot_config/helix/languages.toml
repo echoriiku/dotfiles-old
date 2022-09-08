@@ -1,69 +1,30 @@
 [[language]]
 name = "javascript"
-scope = "source.js"
-injection-regex = "^(js|javascript)$"
-file-types = ["js", "jsx", "mjs", "cjs"]
-shebangs = ["node"]
-roots = []
-comment-token = "//"
-# TODO: highlights-params
-language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "javascript" }
-indent = { tab-width = 2, unit = "  " }
-
-[language.debugger]
-name = "node-debug2"
-transport = "stdio"
-# args consisting of cmd (node) and path to adapter should be added to user's configuration
-quirks = { absolute-paths = true }
-
-[[language.debugger.templates]]
-name = "source"
-request = "launch"
-completion = [ { name = "main", completion = "filename", default = "index.js" } ]
-args = { program = "{0}" }
-
-[[grammar]]
-name = "javascript"
-source = { git = "https://github.com/tree-sitter/tree-sitter-javascript", rev = "4a95461c4761c624f2263725aca79eeaefd36cad" }
+shebangs = ["deno", "node"]
+roots = ["deno.json", "package.json", "tsconfig.json"]
+config = { enable = true, lint = true, unstable = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "javascript" }
 
 [[language]]
 name = "jsx"
-scope = "source.jsx"
-injection-regex = "jsx"
-file-types = ["jsx"]
-roots = []
-comment-token = "//"
-language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "javascript" }
-indent = { tab-width = 2, unit = "  " }
-grammar = "javascript"
+shebangs = ["deno", "node"]
+roots = ["deno.json", "package.json", "tsconfig.json"]
+config = { enable = true, lint = true, unstable = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "javascriptreact" }
+
 [[language]]
 name = "typescript"
-scope = "source.ts"
-injection-regex = "^(ts|typescript)$"
-file-types = ["ts"]
-shebangs = []
-roots = []
-# TODO: highlights-params
-language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescript"}
-indent = { tab-width = 2, unit = "  " }
-
-[[grammar]]
-name = "typescript"
-source = { git = "https://github.com/tree-sitter/tree-sitter-typescript", rev = "3e897ea5925f037cfae2e551f8e6b12eec2a201a", subpath = "typescript" }
+shebangs = ["deno", "node"]
+roots = ["deno.json", "package.json", "tsconfig.json"]
+config = { enable = true, lint = true, unstable = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "typescript" }
 
 [[language]]
 name = "tsx"
-scope = "source.tsx"
-injection-regex = "^(tsx)$" # |typescript
-file-types = ["tsx"]
-roots = []
-# TODO: highlights-params
-language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescriptreact" }
-indent = { tab-width = 2, unit = "  " }
-
-[[grammar]]
-name = "tsx"
-source = { git = "https://github.com/tree-sitter/tree-sitter-typescript", rev = "3e897ea5925f037cfae2e551f8e6b12eec2a201a", subpath = "tsx" }
+shebangs = ["deno", "node"]
+roots = ["deno.json", "package.json", "tsconfig.json"]
+config = { enable = true, lint = true, unstable = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "typescriptreact" }
 
 [[language]]
 name = "css"

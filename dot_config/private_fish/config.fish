@@ -33,18 +33,20 @@ end
       rmdir $dir
   end
 #abbrs
-  abbr -a bk backup
-  abbr -a re restore
-  abbr -a mc mkdir-cd
-  abbr -a cat bat
-  abbr -a dnfi 'sudo dnf install'
-  abbr -a dnfr 'sudo dnf remove'
-  abbr -a dnfs 'dnf search'
-  abbr -a dnfu 'sudo dnf update'
-  abbr -a flup 'flatpak update'
-  abbr -a ls 'exa --color=always --group-directories-first --icons'
-  abbr -a lsl 'exa --color=always --group-directories-first --icons -l'
-  abbr -a rm 'trash'
-  abbr -a q exit
+    abbr -a bk   'backup'
+    abbr -a re   'restore'
+    abbr -a mc   'mkdir-cd'
+    abbr -a cat  'bat'
+    abbr -a dnfi 'sudo dnf install'
+    abbr -a dnfr 'sudo dnf remove'
+    abbr -a dnfs 'dnf search'
+    abbr -a dnfu 'sudo dnf update'
+    abbr -a flup 'flatpak update'
+    abbr -a ls   'exa --color=always --group-directories-first --icons'
+    abbr -a lsa  'exa --color=always --group-directories-first --icons -a'
+    abbr -a ll   'exa --color=always --group-directories-first --icons -l'
+    abbr -a lla  'exa --color=always --group-directories-first --icons -l -a'
+    abbr -a rm   'trash'
+    abbr -a q    'exit'
 #start
 cutefetch $(printf '\t-k\n-b\n-p' | shuf -n 1) $(shuf -i 1-13 -n 1)
