@@ -51,3 +51,4 @@ end
     abbr -a q    'exit'
 #start
 cutefetch $(printf '\t-k\n-b\n-p' | shuf -n 1) $(shuf -i 1-13 -n 1)
+fish_add_path /home/riiku/.spicetify
