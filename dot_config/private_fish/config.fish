@@ -6,6 +6,7 @@ zoxide init fish | source
 set fish_greeting
 set EDITOR "hx"
 set BROWSER "firefox"
+    export XDG_CONFIG_HOME=$HOME/.config
 
 ##FUNCTIONS
 #backup
