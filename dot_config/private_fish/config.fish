@@ -43,6 +43,7 @@ end
     abbr -a dnfs 'dnf search'
     abbr -a dnfu 'sudo dnf update'
     abbr -a flup 'flatpak update'
+    abbr -a lg   'lazygit'
     abbr -a ls   'exa --color=always --group-directories-first --icons'
     abbr -a lsa  'exa --color=always --group-directories-first --icons -a'
     abbr -a ll   'exa --color=always --group-directories-first --icons -l'
