@@ -1,4 +1,4 @@
 [character]
-success_symbol = "[❯](purple)[❯](pink)[❯](blue)"
-error_symbol = "[❯](purple)[❯](pink)[❮](red)"
-vicmd_symbol = "[❯](purple)[❯](pink)[❯](green)"
+success_symbol = "[❯](purple)[❯](yellow)[❯](blue)"
+error_symbol = "[❯](purple)[❯](yellow)[❮](red)"
+vicmd_symbol = "[❯](purple)[❯](yellow)[❯](green)"
