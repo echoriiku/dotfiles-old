@@ -74,4 +74,6 @@ injection-regex = "md|markdown"
 file-types = ["md"]
 roots = [".marksman.toml"]
 language-server = { command = "marksman", args=["server"] }
+formatter = { command = 'prettier', args = ["--parser", "markdown" ] }
+auto-format = true
 indent = { tab-width = 2, unit = "  " }
