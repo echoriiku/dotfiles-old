@@ -51,7 +51,7 @@ end
     abbr -a lla  'exa --color=always --group-directories-first --icons -l -a'
     abbr -a rm   'trash'
     abbr -a q    'exit'
-    abbr -a zj   'zellij'
+    abbr -a tm   'tmux'
 
 #start
 cutefetch $(printf '\t-k\n-b\n-p' | shuf -n 1) $(shuf -i 1-13 -n 1)
