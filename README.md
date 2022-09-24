@@ -17,8 +17,11 @@
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [bat](https://github.com/sharkdp/bat)
 - [trashy](https://github.com/oberblastmeister/trashy)
-- [tealdeeler](https://github.com/dbrgn/tealdeer)
+- [tealdeer](https://github.com/dbrgn/tealdeer)
 - [fzf](https://github.com/junegunn/fzf)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [dust](https://github.com/bootandy/dust)
+- [delta](https://github.com/dandavison/delta)
 
 ---
 
