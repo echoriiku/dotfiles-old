@@ -10,6 +10,7 @@
 ## Other tools
 
 - [tmux](https://github.com/tmux/tmux)
+- [zellij](https://github.com/zellij-org/zellij)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [exa](https://github.com/ogham/exa)
 - [bottom](https://github.com/ClementTsang/bottom)
