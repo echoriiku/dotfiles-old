@@ -2183,6 +2183,6 @@ editor hx
 include ./rose.conf
 
 # BEGIN_KITTY_THEME
-# Corvine
+# Catppuccin-Frappe
 include current-theme.conf
 # END_KITTY_THEME

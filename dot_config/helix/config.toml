@@ -1,4 +1,4 @@
-theme = "catppuccin_frappe"
+theme = "tokyonight"
 
 [editor]
 line-number = "relative"
@@ -42,6 +42,3 @@ hidden = false
 "x" = ":buffer-close"
 "w" = { "r" = ":config-reload" }
 # "." = ":file_picker_in_buffer_directory"
-
-[keys.insert]
-j = { k = "normal_mode" }

@@ -1,13 +1,35 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+# if status is-interactive
+#     # Commands to run in interactive sessions can go here
+# end
+
+# The following snippet is meant to be used like this in your fish config:
+#
+# if status is-interactive
+#     # Configure auto-attach/exit to your likings (default is off).
+    # set ZELLIJ_AUTO_ATTACH true
+    # set ZELLIJ_AUTO_EXIT true
+    # eval (zellij setup --generate-auto-start fish | string collect)
+# end
+# if not set -q ZELLIJ
+#     if test "$ZELLIJ_AUTO_ATTACH" = "true"
+#         zellij attach -c
+#     else
+#         zellij
+#     end
+
+#     if test "$ZELLIJ_AUTO_EXIT" = "true"
+#         kill $fish_pid
+#     end
+# end
+
 
 zoxide init fish | source
 starship init fish | source
 set fish_greeting
 set EDITOR "hx"
 set BROWSER "firefox"
-    export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CONFIG_HOME=$HOME/.config
+fish_add_path /home/riiku/.spicetify
 
 ##FUNCTIONS
 #backup
@@ -52,7 +74,8 @@ end
     abbr -a rm   'trash'
     abbr -a q    'exit'
     abbr -a tm   'tmux'
+    abbr -a zl   'zellij'
+    abbr -a xp   'xplr'
 
-#start
+#autostart fetch script
 cutefetch $(printf '\t-k\n-b\n-p' | shuf -n 1) $(shuf -i 1-13 -n 1)
-fish_add_path /home/riiku/.spicetify
