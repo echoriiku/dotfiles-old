@@ -9,4 +9,9 @@ nix-env -iA \
 	nixpkgs.chezmoi \
 	nixpkgs.fzf \
 	nixpkgs.zoxide \
+	nixpkgs.tmux \
+	nixpkgs.lazygit \
+	nixpkgs.bottom \
+	nixpkgs.delta \
+	nixpkgs.xplr \
 	nixpkgs.tealdeer
