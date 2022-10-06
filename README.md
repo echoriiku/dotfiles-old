@@ -15,7 +15,7 @@
 - [lsd](https://github.com/Peltoche/lsd)
 - [bottom](https://github.com/ClementTsang/bottom)
 - [xplr](https://github.com/sayanarijit/xplr)
-- [lazygit](https://github.com/jesseduffield/lazygit)
+- [gitui](https://github.com/extrawurst/gitui)
 - [bat](https://github.com/sharkdp/bat)
 - [trashy](https://github.com/oberblastmeister/trashy)
 - [tldr](https://github.com/tldr-pages/tldr)
