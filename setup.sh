@@ -2,6 +2,7 @@
 
 ln -sf $HOME/myrepos/dotfiles/alacritty/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/bottom/ ~/.config/
+ln -sf $HOME/myrepos/dotfiles/btop/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/fish/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/helix/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/hypr/ ~/.config/
