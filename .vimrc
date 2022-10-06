@@ -11,8 +11,6 @@ set shiftwidth=4
 set autoindent
 set hlsearch
 syntax on 
-colorscheme habamax 
-set termguicolors
 
 " enter the current millenium
 set nocompatible
