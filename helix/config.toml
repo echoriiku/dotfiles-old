@@ -38,6 +38,7 @@ render = true
 
 [editor.file-picker]
 hidden = false
+max-depth = 2
 
 [keys.normal.space]
 "x" = ":buffer-close"

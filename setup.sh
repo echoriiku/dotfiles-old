@@ -13,3 +13,4 @@ ln -sf $HOME/myrepos/dotfiles/tmux/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/xplr/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/zellij/ ~/.config/
 ln -sf $HOME/myrepos/dotfiles/starship.toml ~/.config/
+ln -sf $HOME/myrepos/dotfiles/.vimrc $HOME 
