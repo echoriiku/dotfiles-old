@@ -1,4 +1,4 @@
-![](https://files.catbox.moe/avnruq.png)
+![](https://files.catbox.moe/avnruq.png "neet")
 
 ## Riiku's dotfiles
 
