@@ -9,6 +9,7 @@ SETUVAR _fish_abbr_dnfr:sudo\x20dnf\x20remove
 SETUVAR _fish_abbr_dnfs:dnf\x20search
 SETUVAR _fish_abbr_dnfu:sudo\x20dnf\x20update
 SETUVAR _fish_abbr_flup:flatpak\x20update
+SETUVAR _fish_abbr_gu:gitui
 SETUVAR _fish_abbr_lg:lazygit
 SETUVAR _fish_abbr_ll:lsd\x20\x2d\x2dgroup\x2ddirectories\x2dfirst\x20\x2dl
 SETUVAR _fish_abbr_lla:lsd\x20\x2d\x2dgroup\x2ddirectories\x2dfirst\x20\x2dla

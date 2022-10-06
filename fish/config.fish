@@ -66,7 +66,7 @@ end
     abbr -a dnfs                      'dnf search'
     abbr -a dnfu                      'sudo dnf update'
     abbr -a flup                      'flatpak update'
-    abbr -a lg                        'lazygit'
+    abbr -a gu                        'gitui'
     abbr -a ls                        'lsd --group-directories-first'
     abbr -a lsa                       'lsd --group-directories-first -a'
     abbr -a ll                        'lsd --group-directories-first -l'
