@@ -14,7 +14,6 @@
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [exa](https://github.com/ogham/exa)
 - [bottom](https://github.com/ClementTsang/bottom)
-- [chezmoi](https://github.com/twpayne/chezmoi)
 - [xplr](https://github.com/sayanarijit/xplr)
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [bat](https://github.com/sharkdp/bat)
