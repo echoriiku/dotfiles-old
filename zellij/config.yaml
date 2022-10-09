@@ -4,9 +4,9 @@
 # In order to troubleshoot your configuration try using the following command:
 # `zellij setup --check`
 # It should show current config locations and features that are enabled.
-ui:
-  pane_frames:
-    rounded_corners: true
+# ui:
+#   pane_frames:
+#     rounded_corners: true
 
 keybinds:
     unbind: true
@@ -582,7 +582,7 @@ plugins:
 # Options:
 #   - true
 #   - false (Default)
-simplified_ui: true
+# simplified_ui: true
 
 # Choose the path to the default shell that zellij will use for opening new panes
 # Default: $SHELL
@@ -592,7 +592,7 @@ default_shell: fish
 # Options:
 #   - true (default)
 #   - false
-pane_frames: false
+pane_frames: true
 
 # Choose the theme that is specified in the themes section.
 # For some examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
