@@ -28,34 +28,23 @@ starship init fish | source
 set fish_greeting
 set EDITOR "hx"
 set BROWSER "firefox"
+set fzf_preview_dir_cmd "lsd -a"
 export XDG_CONFIG_HOME=$HOME/.config
-fish_add_path /home/riiku/.spicetify
 
-##FUNCTIONS
+
+# FUNCTIONS
+
 #backup
 function backup --argument filename
     cp $filename $filename.bak
 end
+
 #restore
 function restore --argument file
     mv $file (echo $file | sed s/.bak//)
 end
-#mkdir-cd
-function mkdir-cd
-    mkdir -p -- $argv && cd -- $argv
-end
-#create-file
-function create-file --argument target
-    mkdir -p (dirname $target)
-    touch $target
-end
-#eat
-  function eat --argument dir
-      for f in (find $dir -maxdepth 1 -not -path $dir)
-          rsync --archive --remove-source-files --delete $f .
-      end
-      rmdir $dir
-  end
+
+
 #abbrs
     abbr -a bk                        'backup'
     abbr -a re                        'restore'
@@ -78,5 +67,7 @@ end
     abbr -a xp                        'xplr'
     abbr -a cargup                    'cargo install-update -a'
 
+
 #autostart fetch script
 cutefetch $(printf '\t-k\n-b\n-p' | shuf -n 1) $(shuf -i 1-13 -n 1)
+

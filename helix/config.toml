@@ -6,7 +6,7 @@ cursorline = true
 color-modes = true
 gutters = ["diagnostics", "line-numbers"]
 auto-completion = true
-# bufferline = always # wait until 22.10 release to enable it
+# bufferline = "always" #wait until 22.10 release to enable it
 
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "file-encoding"]
@@ -39,6 +39,10 @@ render = true
 [editor.file-picker]
 hidden = false
 max-depth = 2
+
+# [keys.normal]
+# j = ["move_line_down", "align_view_center"]
+# k = ["move_line_up", "align_view_center"] 
 
 [keys.normal.space]
 "x" = ":buffer-close"
