@@ -34,4 +34,4 @@ live_config_realod: true
 
 # Theme settings #
 import:
-  - ./themes/gruvbox_dark.yaml
+  - ~/.config/alacritty/themes/catppuccin-mocha.yml
