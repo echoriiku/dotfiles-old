@@ -10,7 +10,7 @@ window:
   # dimensions:
   #   columns: 100
   #   lines: 35
-  startup_mode: Fullscreen
+  startup_mode: Maximized
 
 # Font settings #
 font:
