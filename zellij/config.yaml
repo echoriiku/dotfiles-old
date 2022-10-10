@@ -582,7 +582,7 @@ plugins:
 # Options:
 #   - true
 #   - false (Default)
-# simplified_ui: true
+simplified_ui: true
 
 # Choose the path to the default shell that zellij will use for opening new panes
 # Default: $SHELL
@@ -597,7 +597,7 @@ pane_frames: true
 # Choose the theme that is specified in the themes section.
 # For some examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
 # Default: default
-theme: nord
+theme: gruvbox-dark
 
 # Choose the mode that zellij uses when starting up.
 # Default: normal

@@ -1,16 +1,16 @@
-![](https://files.catbox.moe/avnruq.png "neet")
+[![avnruq.png](https://i.postimg.cc/pX5J4x0v/avnruq.png)](https://postimg.cc/KRFTgXSp)
 
 ## Riiku's dotfiles
 
-- Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
+- Terminal: [Alacritty](https://github.com/alacritty/alacritty/)
 - Shell: [Fish](https://github.com/fish-shell/fish-shell)
 - Editor: [Helix](https://github.com/helix-editor/helix)
 - Video Player: [MPV](https://github.com/mpv-player/mpv)
 
 ## Other tools
 
-- [tmux](https://github.com/tmux/tmux)
-- [zellij](https://github.com/zellij-org/zellij)
+- [zellij](https://github.com/zellij-org/zellij)  
+  ~~- [tmux](https://github.com/tmux/tmux)~~
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [lsd](https://github.com/Peltoche/lsd)
 - [bottom](https://github.com/ClementTsang/bottom)
@@ -23,12 +23,3 @@
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [dust](https://github.com/bootandy/dust)
 - [delta](https://github.com/dandavison/delta)
-
----
-
-Helix editor is not on the Fedora repos, so to install it, enable the following COPR:
-
-```bash
-sudo dnf copr enable varlad/helix
-sudo dnf install helix
-```
